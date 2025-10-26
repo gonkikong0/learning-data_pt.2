@@ -38,7 +38,7 @@ with open(filename) as f:
 
 
     #formatting the plot
-    plt.title("Daily high temperatures, July2018", fontsize = 24)
+    plt.title("Daily high and low temperatures, July2018\n Death Valley, CA", fontsize = 24)
     plt.xlabel('', fontsize = 16)
     fig.autofmt_xdate()
     plt.ylabel('Temperature(F)', fontsize = 16)
